@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace EnterKratos
@@ -8,13 +9,13 @@ namespace EnterKratos
         [SerializeField]
         private Image image;
 
-        private ShopItem _item;
+        [SerializeField]
+        private TextMeshProUGUI priceLabel;
 
         public void SetItem(ShopItem item)
         {
-            _item = item;
             image.sprite = item.image;
-            Debug.Log(item.name);
+            priceLabel.text = Helpers.FormatCurrencyValue(item.price);
         }
     }
 }

@@ -772,7 +772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140438472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -810,6 +810,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2140438473}
     m_Modifications:
+    - target: {fileID: 3476641944018818261, guid: 28b055ece2c40f74d926641aaafd03c2, type: 3}
+      propertyPath: m_text
+      value: Price
+      objectReference: {fileID: 0}
     - target: {fileID: 4644662023355818733, guid: 28b055ece2c40f74d926641aaafd03c2, type: 3}
       propertyPath: m_Name
       value: ShopItem
