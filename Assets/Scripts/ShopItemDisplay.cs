@@ -12,10 +12,21 @@ namespace EnterKratos
         [SerializeField]
         private TextMeshProUGUI priceLabel;
 
-        public void SetItem(ShopItem item)
+        private Shop _shop;
+        private ShopItem _item;
+
+        public void SetItem(Shop shop, ShopItem item)
         {
+            _shop = shop;
+            _item = item;
+
             image.sprite = item.image;
             priceLabel.text = Helpers.FormatCurrencyValue(item.price);
+        }
+
+        public void OnClick()
+        {
+            _shop.RequestPurchase(_item);
         }
     }
 }

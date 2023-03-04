@@ -825,6 +825,9 @@ MonoBehaviour:
   items:
   - {fileID: 11400000, guid: 6c2f888a83276694dbcedb901ff91b82, type: 2}
   - {fileID: 11400000, guid: 0798c1a1f09df4348b61341dd1ef91ec, type: 2}
+  playerInventory: {fileID: 11329969}
+  itemPurchasedEvent: {fileID: 11400000, guid: 68b8536665df3444d846ac874f3dc137, type: 2}
+  failedToPurchaseItem: {fileID: 11400000, guid: 8712d1bb08e6cb643ade847e3d961648, type: 2}
 --- !u!1 &1773240984
 GameObject:
   m_ObjectHideFlags: 0

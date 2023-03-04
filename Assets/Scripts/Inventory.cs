@@ -8,7 +8,7 @@ namespace EnterKratos
     public class Inventory : MonoBehaviour
     {
         [SerializeField]
-        private List<ShopItem> items;
+        private List<ShopItem> items = new();
 
         [SerializeField]
         private int coins;
@@ -28,7 +28,23 @@ namespace EnterKratos
 
         private void Start()
         {
-            coinsUpdated.Raise(coins);
+            coinsUpdated.Raise(Coins);
+        }
+
+        public bool TryDeductCoins(int value)
+        {
+            if (Coins < value)
+            {
+                return false;
+            }
+
+            Coins -= value;
+            return true;
+        }
+
+        public void Add(ShopItem item)
+        {
+            items.Add(item);
         }
     }
 }
