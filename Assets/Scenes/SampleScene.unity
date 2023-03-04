@@ -664,7 +664,12 @@ MonoBehaviour:
   shopItemPrefab: {fileID: 4644662023355818733, guid: 28b055ece2c40f74d926641aaafd03c2, type: 3}
   items:
   - {fileID: 11400000, guid: 6c2f888a83276694dbcedb901ff91b82, type: 2}
+  - {fileID: 11400000, guid: 5014a69ad687ed14e8a261ebe433e087, type: 2}
   - {fileID: 11400000, guid: 0798c1a1f09df4348b61341dd1ef91ec, type: 2}
+  - {fileID: 11400000, guid: 328f6e34ce1d80a46be027b2962130c7, type: 2}
+  - {fileID: 11400000, guid: e8cb4e51779a3bd43b999e4e79b6663a, type: 2}
+  - {fileID: 11400000, guid: 2900ff78908d34944abbba8e6d5eb5fe, type: 2}
+  - {fileID: 11400000, guid: 79a88cd3f9c8bde4ca3bae1e0982e4b2, type: 2}
   playerInventory: {fileID: 11329969}
   itemPurchasedEvent: {fileID: 11400000, guid: 68b8536665df3444d846ac874f3dc137, type: 2}
   failedToPurchaseItem: {fileID: 11400000, guid: 8712d1bb08e6cb643ade847e3d961648, type: 2}
