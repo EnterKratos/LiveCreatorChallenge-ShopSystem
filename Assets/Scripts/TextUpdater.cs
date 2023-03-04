@@ -8,6 +8,12 @@ namespace EnterKratos
         [SerializeField]
         private TextMeshProUGUI textField;
 
-        public void SetText(int value) => textField.text = value.ToString();
+        [SerializeField]
+        private bool isCurrency;
+
+        public void SetText(int value) =>
+            textField.text = isCurrency ?
+                Helpers.FormatCurrencyValue(value) :
+                value.ToString();
     }
 }
