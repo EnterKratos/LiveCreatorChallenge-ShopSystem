@@ -2,6 +2,6 @@
 {
     public static class Helpers
     {
-        public static string FormatCurrencyValue(double value) => $"ж{value}";
+        public static string FormatCurrencyValue(int value) => $"ж{value}";
     }
 }

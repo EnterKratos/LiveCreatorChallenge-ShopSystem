@@ -6,7 +6,7 @@ namespace EnterKratos
     public class ShopItem : ScriptableObject
     {
         public new string name;
-        public double price;
+        public int price;
         public Sprite image;
     }
 }
