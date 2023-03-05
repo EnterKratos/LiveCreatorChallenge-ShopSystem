@@ -399,6 +399,8 @@ MonoBehaviour:
   onSceneLoaded:
     m_PersistentCalls:
       m_Calls: []
+  sceneGuid: d2809ab9b90eea7419d8d90d4c505d35
+  scenePath: Assets/ThirdPartyAssets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
 --- !u!1 &1034628749
 GameObject:
   m_ObjectHideFlags: 0
